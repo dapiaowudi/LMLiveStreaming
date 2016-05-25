@@ -103,7 +103,7 @@
 
 /** callback socket errorcode */
 - (void)streamingSession:(nullable LMStreamingSession*)session errorCode:(LMStreamSocketErrorCode)errorCode{
-
+    
 }
 
 #pragma mark -- Getter Setter
@@ -113,7 +113,7 @@
         _session.running = YES;
         _session.preView = self;
         LMStream *stream = [[LMStream alloc] init];
-        stream.url = @"rtmp://daniulive.com:1935/live/stream238";
+        stream.url = @"rtmp://live-send.acg.tv/live/live_2763567_7823365?streamname=live_2763567_7823365&key=3293d27605fdce44466711fee73b6700";
         //stream.url = @"rtmp://10.155.60.33:1935/live/123";
         _session.stream = stream;
     }

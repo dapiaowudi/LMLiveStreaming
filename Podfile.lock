@@ -1,0 +1,33 @@
+PODS:
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - GPUImage (0.1.7)
+  - librtmp-iOS (1.1.0)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.4.1)
+  - GPUImage (from `https://github.com/LaiFengiOS/GPUImage`)
+  - librtmp-iOS (~> 1.1.0)
+
+EXTERNAL SOURCES:
+  GPUImage:
+    :git: https://github.com/LaiFengiOS/GPUImage
+
+CHECKOUT OPTIONS:
+  GPUImage:
+    :commit: f8b0b06c097c177b668b10abcb7d22e6cf607f94
+    :git: https://github.com/LaiFengiOS/GPUImage
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  GPUImage: bd7e201b9aa91e85f401ed7a6d9867a07a404693
+  librtmp-iOS: bfe6a2978e01ac97160ede5d3ccde9e3c1d1ee58
+
+PODFILE CHECKSUM: 6e518127cb6faefaf17b1c905fd2e19d24f0f679
+
+COCOAPODS: 1.0.0
